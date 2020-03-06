@@ -1,6 +1,7 @@
 {
-  "name": "files-test",
-  "displayName": "files-test",
+  "name": "vwo-vscode",
+  "publisher": "aslop",
+  "displayName": "vwo-vscode",
   "description": "",
   "version": "0.0.1",
   "engines": {
