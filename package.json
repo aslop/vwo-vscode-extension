@@ -10,14 +10,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.setVwoCampaign"
+    "onCommand:extension.vwoSetCampaign",
+    "onCommand:extension.pushToVwo"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.setVwoCampaign",
-        "title": "setVwoCampaign"
+        "command": "extension.vwoSetCampaign",
+        "title": "vwo | Set Campaign"
+      },
+      {
+        "command": "extension.pushToVwo",
+        "title": "vwo | push code"
       }
     ]
   },
