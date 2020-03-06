@@ -3,6 +3,7 @@
 const vscode = require("vscode");
 const mainFunc = require("./lib/mainFunc");
 const pushToVwo = require("./lib/pushToVwo");
+const writeJsonConfig = require("./lib/writeJsonConfig");
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 
